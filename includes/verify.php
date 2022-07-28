@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$db = mysqli_connect('localhost', 'root', '', 'forex') or die("Couldn't connect to the database");
+$db = mysqli_connect('fdb32.awardspace.net', '4133231_forex', 'qKGgqqz)4d-i0!^w', '4133231_forex') or die("Couldn't connect to the database");
 
 if (isset($_GET['vkey'])) {
 	//Process Verification
